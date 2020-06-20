@@ -1,9 +1,9 @@
 options:
-  token: "NzAzOTE0Mzg5ODMyNDY2NDcz.Xu51rw.EiGCJDnk8fBZYwuyJsZoMXcMDBk"
-  channel_send:
-  join:
-  quit:
-  chat:
-  message_join:
-  message_quit:
-  message_chat:
+  token: "YOUR_TOKEN"
+  channel_send: "YOUR_CHANNEL"
+  join: true
+  quit: true
+  chat: true
+  message_join: "%user% join server"
+  message_quit: "%user% leave server"
+  message_chat: "%user% >> %message%"
