@@ -34,7 +34,7 @@ public class Main extends JavaPlugin {
         try {
             JdaRegister.RegisterBot();
         } catch (LoginException | InterruptedException e) {
-            getLogger().info("[Error] : Your bot cant connect to discord !");
+            getLogger().info("Token invalid");
         }
     }
 

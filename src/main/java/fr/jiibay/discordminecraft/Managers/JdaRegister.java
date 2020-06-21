@@ -24,10 +24,8 @@ public class JdaRegister {
     }
 
     public static boolean isTokenValid(){
-        if (Main.getFileConfig().getString("options.token").isEmpty()){
-            Main.getMain().getLogger().info("[Error] : Your message cant send discord because your token is invalid !");
-            return false;
-        }
+
+
         return true;
     }
 
@@ -39,7 +37,6 @@ public class JdaRegister {
 
     // JDA CHANNEL DEFAULT SEND
     public static TextChannel getDefaultChannel(){
-
         return JdaRegister.getJda().getTextChannelsByName(Main.getFileConfig().getString("options.channel_send"), true).get(0);
     }
 
