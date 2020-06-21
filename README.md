@@ -8,9 +8,8 @@ Dowload [DiscordBotMinecraft](https://cdn.discordapp.com/attachments/72425362303
 
 ## Usage token
 
-Votre token de bot dans ```"Your token"```
-Pour avoir son token il faut se rendre ici [DiscordApplication](https://discord.com/developers/applications).
-
+Your bot token in ```"Your token"```
+Your bot token in "Your token" To have your token, go to [DiscordApplication](https://discord.com/developers/applications) here.
 
 ![image](https://cdn.discordapp.com/attachments/723279147312611348/724207132802547712/unknown.png)
 
@@ -31,10 +30,23 @@ options:
 ```
 
 
-## Usage message
+## Usage channel
 
+This options allows you to send your messages in your discord channel for in-game messages and messages also sent from then discord
+Your channel in "YOUR_CHANNEL" without the #
 
 ```yml
 options:
   channel_send: "YOUR_CHANNEL"
+```
+
+## Usage if your message will be sent
+
+This options lets you know if you want to send messages on your discord or not.
+
+```yml
+options:
+  join:
+  quit!
+  chat:
 ```
