@@ -2,6 +2,10 @@
 
 This is a discord bot that you can read back to your minecraft bot to retrieve information such as a player's join or when a player leaves a server and also when a player speaks.
 
+## Download plugin 
+
+Dowload [DiscordBotMinecraft](https://cdn.discordapp.com/attachments/724253623030120467/724253716416430131/DiscordAppMinecraft.jar)
+
 ## Usage token
 
 Votre token de bot dans ```"Your token"```
